@@ -14,5 +14,5 @@ exec:
 	rm $f
 
 execwin:
-	gcc -o $f source/$f/main.c && .\$f.exe
+	gcc -o $f source\$f\main.c && .\$f.exe
 	DEL $f
