@@ -10,7 +10,7 @@ Puede consultar todo el código fuente de los distintos ejercicios en la carpeta
 
 ### Índice
 
-- [Hola mundo en C](./source/hola_mundo/main.c)
+- [Hola mundo en C](./source/hola_mundo/)
 - [Calculadora simple](./source/calculadora/main.c)
 
 ## Herramientas
