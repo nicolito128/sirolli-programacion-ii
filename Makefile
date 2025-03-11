@@ -5,10 +5,14 @@ run:
 
 # Similar a `run` pero especificando un .exe para Windows
 runwin:
-	gcc -o $f.exe $f.c && .\$f.exe
+	gcc -o $f $f.c && .\$f.exe
 	DEL $f
 
 # Similar a `run` pero con atajos para compilar cualquier folder de source/
 exec:
 	gcc -o $f source/$f/main.c && ./$f
 	rm $f
+
+execwin:
+	gcc -o $f source/$f/main.c && .\$f.exe
+	DEL $f
