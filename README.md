@@ -24,6 +24,7 @@ Puede consultar todo el código fuente de los distintos ejercicios en la carpeta
 Libros y/o artículos que puede leer para aprender más sobre C:
 
 - [El Manual para principiantes C: Aprende las bases del lenguaje de programación C en sólo unas horas](https://www.freecodecamp.org/espanol/news/el-libro-para-principiantes-c-aprende-las-bases-del-lenguaje-de-programacion-c-en-solo-unas-horas/)
+- [Introducción a las Herramientas de Desarrollo (ZinjaI)](https://zinjai.sourceforge.net/Anexo1.pdf)
 
 ## Notas
 
