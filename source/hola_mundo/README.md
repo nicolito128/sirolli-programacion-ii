@@ -37,7 +37,7 @@ A diferencia del resto de código en C, las directivas no tienen que finalizar c
 int main() {
 ```
 
-En esta línea tenemos la _función main_, en cualquier programa de C es el **punto de entrada** que se ejecutará cuando intentemos usar un binario. Posee la estructura típica de una función:
+En esta línea tenemos la _función main_, en cualquier programa de C es el **punto de entrada** que se ejecutará cuando intentemos correr un binario. Posee la estructura típica de una función:
 
     <Tipo de Dato de Retorno> <Nombre de la función>(<Argumentos>) {
         <Cuerpo>
