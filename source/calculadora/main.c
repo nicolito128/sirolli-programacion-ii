@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-// Cabaeres de funciones que serán utilizadas luego.
-// C tiene que conocer nuestras funciones para poder llamarlas luego.
-// Si  no proporcionamos una cabecera, entonces debemos implementarla en esta misma línea.
+// Cabeceras de funciones que serán utilizadas luego.
+// C tiene que conocer nuestras funciones para poder llamarlas.
+// Si no proporcionamos una cabecera, entonces debemos implementarla inmediatamente.
 float calcular(int, int, char);
 
 int main() {
