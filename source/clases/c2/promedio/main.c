@@ -1,6 +1,6 @@
 /*
     Un profesor realizó un examen final a 10 alumnos y quiero obtener el promedio
-    de notas las notas.
+    de todas las notas.
 */
 #include <stdio.h>
 
