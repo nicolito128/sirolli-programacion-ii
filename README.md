@@ -8,7 +8,11 @@ El presente intenta ser un registro en el tiempo y, a su vez, una guía práctic
 
 Puede consultar todo el código fuente de los distintos ejercicios en la carpeta [source/](./source/), para así descargarlos o copiarlos en su IDE de preferencia.
 
-### Índice
+## Índices
+
+### Clases
+
+Programas y ejercicios trabajados durante las clases.
 
 - Clase 1:
   - [Hola mundo en C](./source/clases/c1/hola_mundo/)
@@ -17,6 +21,12 @@ Puede consultar todo el código fuente de los distintos ejercicios en la carpeta
     - [Calcular el seno de un número](./source/clases/c2/seno/main.c)
     - [Mostrando los valores pares](./source/clases/c2/pares/main.c)
     - [Promedio de notas](./source/clases/c2/promedio/main.c)
+
+### Apuntes
+
+Notas y explicaciones sobre temas puntuales.
+
+- [Variables y Tipos de Datos](./apuntes/001-Variables-y-Tipos.md)
 
 ## Herramientas
 
@@ -38,11 +48,11 @@ Libros y/o artículos que puede leer para aprender más sobre C:
 
 ## ¿Cómo puedo compilar un archivo `*.c` usando `gcc`?
 
-Use la siguiente instrucción en su consola de comandos:
+En caso de no utilizar un entorno de desarrollo, use la siguiente instrucción en su consola de comandos:
 
-    gcc -o <ARCHIVO DE SALIDA> <ARCHIVO FUENTE>.c
+    gcc <ARCHIVO FUENTE>.c -o <ARCHIVO DE SALIDA>
 
-Reemplace `<ARCHIVO DE SALIDA>` por el nombre que ocupará su binario y `<ARCHIVO FUENTE>` por el nombre del código fuente en C.
+Reemplace `<ARCHIVO FUENTE>` por el nombre del código fuente en C y `<ARCHIVO DE SALIDA>` por el nombre que tendrá su binario.
 
 Luego ejecute su binario en Linux con:
 
