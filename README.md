@@ -10,8 +10,13 @@ Puede consultar todo el código fuente de los distintos ejercicios en la carpeta
 
 ### Índice
 
-- [Hola mundo en C](./source/hola_mundo/)
-- [Calculadora simple](./source/calculadora/main.c)
+- Clase 1:
+  - [Hola mundo en C](./source/clases/c1/hola_mundo/)
+  - [Calculadora simple](./source/clases/c1/calculadora/main.c)
+- Clase 2:
+    - [Calcular el seno de un número](./source/clases/c2/seno/main.c)
+    - [Mostrando los valores pares](./source/clases/c2/pares/main.c)
+    - [Promedio de notas](./source/clases/c2/promedio/main.c)
 
 ## Herramientas
 

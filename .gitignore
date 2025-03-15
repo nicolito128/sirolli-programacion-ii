@@ -1,4 +1,13 @@
+# Binaries
 /**/*.exe
 /**/*.zpr
 /**/*.o
 /**/*.zip
+
+# Environment
+.env*
+!.env*.example
+
+# IDE
+.vscode
+.ide
