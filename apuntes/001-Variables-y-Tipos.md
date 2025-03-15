@@ -1,10 +1,8 @@
 # Variables
 
-De manera informal podemos entender a las variables como cajitas en las que podemos guardar varoles. Estas cajas poseen un nombre, un valor, un identificador único (llamado puntero), y un tipo de dato que las describen. Por ejemplo, una variable que almacena una edad puede tener el nombre de `edad`, un puntero con valor `0x000001`, y como tipo de dato un entero sin signo o `uint`, debido a que la edad de una persona no puede ser negativa. 
+De manera informal podemos entender a las variables como cajitas en las que podemos guardar varoles. Estas cajas poseen un nombre, un valor, un identificador único (llamado puntero), y un tipo de dato que las describen. Por ejemplo, una variable que almacena una edad puede tener el nombre de `edad`, un puntero con valor `0x000001`, y como tipo de dato un entero sin signo, debido a que la edad de una persona no puede ser negativa. 
 
-Hay que entender que, por lo general, el tipo de dato de una variable no depende de aquel objeto del mundo real que modela, sino de las operaciones que esperamos realizar con ellas. Por ejemplo, es tentativo pensar que una variable `numero_de_telefono` debería ser un entero, pero debemos preguntarnos, ¿Vamos a realizar operaciones aritméticas con ese número? ¿Planeamos sumar, multiplicar, restar, o dividir ese teléfono?, ¿Debemos hacer comparaciones con ese valor? Si la respuesta es no, entonces no deberíamos almacenarlo como un entero o cualquier otro tipo numérico.
-
-Sabiendo todo esto, formalmente **una variable es un espacio en memoria que cuenta con cuatro elementos**: un *nombre*, un _valor_, un _puntero_, y un _tipo de dato_. En el lenguaje C, el tipo de dato determina qué valores puede almacenar la variable y cuanto espacio ocupará en memoria.
+Sabiendo esto, definimos a una **variable** como **un espacio en memoria que cuenta con cuatro elementos**: un *nombre*, un _valor_, un _puntero_, y un _tipo de dato_. En el lenguaje C, el tipo de dato determina qué valores puede almacenar la variable y cuanto espacio ocupará.
 
 ## Tipos de datos
 
