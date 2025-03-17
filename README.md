@@ -21,6 +21,7 @@ Programas y ejercicios trabajados durante las clases.
     - [Calcular el seno de un número](./source/clases/c2/seno/main.c)
     - [Mostrando los valores pares](./source/clases/c2/pares/main.c)
     - [Promedio de notas](./source/clases/c2/promedio/main.c)
+    - [Tabla de Multiplicar](./source/clases/c2/tabla_mult/main.c)
 
 ### Apuntes
 
