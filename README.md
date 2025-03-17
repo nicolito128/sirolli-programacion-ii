@@ -8,27 +8,13 @@ El presente intenta ser un registro en el tiempo y, a su vez, una guía práctic
 
 Puede consultar todo el código fuente de los distintos ejercicios en la carpeta [source/](./source/), para así descargarlos o copiarlos en su IDE de preferencia.
 
-## Índices
+## Clases
 
-### Clases
+Programas y ejercicios trabajados durante las clases en la carpeta [source/clases](./source/clases/README.md).
 
-Programas y ejercicios trabajados durante las clases.
+## Apuntes
 
-- Clase 1:
-  - [Hola mundo en C](./source/clases/c1/hola_mundo/)
-  - [Calculadora simple](./source/clases/c1/calculadora/main.c)
-- Clase 2:
-    - [Calcular el seno de un número](./source/clases/c2/seno/main.c)
-    - [Mostrando los valores pares](./source/clases/c2/pares/main.c)
-    - [Promedio de notas](./source/clases/c2/promedio/main.c)
-    - [Tabla de Multiplicar](./source/clases/c2/tabla_mult/main.c)
-
-### Apuntes
-
-Notas y explicaciones sobre temas puntuales.
-
-- [Variables y Tipos de Datos](./apuntes/001-Variables-y-Tipos.md)
-- [Operadores](./apuntes/002-Operadores.md)
+Notas y explicaciones sobre varios temas puntuales en la carpeta [apuntes/](./apuntes/README.md).
 
 ## Herramientas
 
