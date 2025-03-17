@@ -3,6 +3,8 @@
 /**/*.zpr
 /**/*.o
 /**/*.zip
+bin/**/*
+!bin/**/*.md
 
 # Environment
 .env*
@@ -10,4 +12,4 @@
 
 # IDE
 .vscode
-.ide
+.idea

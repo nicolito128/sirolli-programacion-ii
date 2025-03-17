@@ -10,9 +10,9 @@ runwin:
 
 # Similar a `run` pero con atajos para compilar cualquier ejercicio de las clases.
 exec-clase:
-	gcc source/clases/c$(c)/$(f)/main.c $(opt) -o $(f) && ./$(f)
-	rm $f
+	gcc source/clases/c$(c)/$(f)/main.c $(opt) -o bin/$(f) && ./bin/$(f)
+	rm bin/$(f)
 
 execwin-clase:
-	gcc source\clases\c$(c)\$(f)\main.c $(opt) -o $(f) && .\$(f).exe
-	DEL $f
+	gcc source\clases\c$(c)\$(f)\main.c $(opt) -o bin\$(f) && .\bin\$(f).exe
+	DEL bin\$(f)
