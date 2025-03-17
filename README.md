@@ -28,6 +28,7 @@ Programas y ejercicios trabajados durante las clases.
 Notas y explicaciones sobre temas puntuales.
 
 - [Variables y Tipos de Datos](./apuntes/001-Variables-y-Tipos.md)
+- [Operadores](./apuntes/002-Operadores.md)
 
 ## Herramientas
 
