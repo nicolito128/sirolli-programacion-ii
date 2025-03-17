@@ -14,5 +14,5 @@ exec-clase:
 	rm $f
 
 execwin-clase:
-	gcc source\clases\c$(c)/$(f)\main.c $(opt) -o $(f) && .\$(f).exe
+	gcc source\clases\c$(c)\$(f)\main.c $(opt) -o $(f) && .\$(f).exe
 	DEL $f
