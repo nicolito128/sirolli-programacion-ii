@@ -13,6 +13,6 @@
 - Clase 3:
    - [Ejemplo de uso de la biblioteca `ctype.h`](./c3/digito/main.c)
    - [Obtener el precio final de un producto en base a un descuento](./c3/descuento/main.c)
-   - [Suma de pares e impares](./c3/pares_impares/)
+   - [Suma de pares e impares](./c3/pares_impares/main.c)
    - [Ejemplo de arreglos en C](./c3/arreglos/main.c)
    - [Ejemplo de cadenas de texto en C](./c3/strings/main.c)
