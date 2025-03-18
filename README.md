@@ -4,10 +4,6 @@ En este [repositorio](https://es.wikipedia.org/wiki/Repositorio_de_software) pod
 
 El presente intenta ser un registro en el tiempo y, a su vez, una guía práctica de cómo usar el lenguaje C.
 
-## Código fuente
-
-Puede consultar todo el código fuente de los distintos ejercicios en la carpeta [source/](./source/), para así descargarlos o copiarlos en su IDE de preferencia.
-
 ## Clases
 
 Programas y ejercicios trabajados durante las clases en la carpeta [source/clases](./source/clases/README.md).
