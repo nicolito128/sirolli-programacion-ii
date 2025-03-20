@@ -4,4 +4,4 @@ Ejemplos de código en C con el único fin de prácticar el lenguaje o temas má
 
 ## Índice
 
-1. [Cargar cadenas de texto dinámicos en un arreglo](./load_str_dynamic/main.c)
+1. [Cargar cadenas de texto dinámicas en un arreglo](./load_str_dynamic/main.c)
