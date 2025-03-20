@@ -1,5 +1,5 @@
 /*
-    Cargar un arreglo de 5 frutas y mostrarlas.
+    Cargar un arreglo de strings de tamaño desconocido y mostrarlos.
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@ void free_arreglo(string arreglo[TAM]);
 
 int main() {
     // Arreglo con las cadenas.
-    string frutas[TAM];
+    string arreglo[TAM];
     // Delimitador para el ingreso de la cadena por consola.
     char delim = '\n';
     // Auxiliares.
@@ -23,23 +23,23 @@ int main() {
 
     printf("Ingreso de las frutas\n");
     for (i = 0; i < TAM; i++) {
-        printf("frutas[%d] = ", i);
+        printf("arreglo[%d] = ", i);
         cadena = obtener_cadena(delim);
         // Algo fue mal en el proceso, liberamos la memoria y terminaremos el programa.
         if (cadena == NULL) {
-            free_arreglo(frutas);
+            free_arreglo(arreglo);
             printf("Algo salió terriblemente mal...\n");
             return 1;
         }
-        frutas[i] = cadena;
+        arreglo[i] = cadena;
     }
 
     for (i = 0; i < TAM; i++) {
-        printf("\nFruta N.%d = %s", i+1, frutas[i]);
+        printf("\n[%d] %s", i+1, arreglo[i]);
     }
 
     // Debemos liberar la memoria reservada.
-    free_arreglo(frutas);
+    free_arreglo(arreglo);
 
     return 0;
 }
