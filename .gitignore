@@ -6,6 +6,13 @@
 bin/**/*
 !bin/**/*.md
 
+# C Files
+/source/**/*
+!/source/**/
+!/source/**/*.c
+!/source/**/*.h
+!/source/**/*.md
+
 # Environment
 .env*
 !.env*.example

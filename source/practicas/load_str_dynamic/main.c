@@ -35,7 +35,7 @@ int main() {
     }
 
     for (i = 0; i < TAM; i++) {
-        printf("\n[%d] %s", i+1, arreglo[i]);
+        printf("\n[%d] %s ", i, arreglo[i]);
     }
 
     // Debemos liberar la memoria reservada.
