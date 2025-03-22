@@ -17,3 +17,5 @@
    - [Ejemplo de arreglos en C](./c3/arreglos/main.c)
    - [Ejemplo de cadenas de texto en C](./c3/strings/main.c)
    - [Cargar un arreglo de 5 frutas](./c3/frutaschar/main.c)
+- Clase 4:
+   - [Ejemplo de cabecera con `tad_conjunto.h`](./c4/cabecera/tad_conjunto.h)
