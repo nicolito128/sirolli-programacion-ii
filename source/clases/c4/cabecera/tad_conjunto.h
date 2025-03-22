@@ -2,7 +2,7 @@
 #define TAD_CONJUNTO
 
 // Declaración de la estructura de datos
-typedef short int * tipo_conjunto;
+typedef short int *tipo_conjunto;
 
 // Declaración de las operaciones
 void iniciar(tipo_conjunto);
