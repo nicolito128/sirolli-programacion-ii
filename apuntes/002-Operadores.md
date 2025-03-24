@@ -143,3 +143,5 @@ Los operadores lógicos nos permiten escribir _expresiones booleanas_ que evalú
 | **!** | `NOT` | `!` | Negación de una expresión. |
 | **==** |  | `a == b` | Expresa _"`a` igual que `b`"_. |
 | **!=** |  | `a != b` | Expresa _"`a` distinto que `b`"_. |
+| **<=** |  | `a <= b` | Expresa _"`a` menor o igual que `b`"_. |
+| **>=** |  | `a >= b` | Expresa _"`a` mayor o igual que `b`"_. |
