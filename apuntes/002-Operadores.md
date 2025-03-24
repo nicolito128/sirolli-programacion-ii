@@ -1,8 +1,72 @@
 # Operadores
 
+## Aritméticos
+
+En C podemos expresar distintas operaciones matemáticas básicas con todos los tipos de datos numéricos. En la siguiente tabla puede ver aquellos operadores:
+
+| Símbolo       | Uso           | Descripción   | 
+| ------------- | ------------- | -------------- |
+| **+** | `a + b` | Operador binario para la adición. |
+| **-** | `a - b` | Operador binario para la sustracción. |
+| **\*** | `a * b` | Operador binario para la multiplicación. |
+| **/** | `a / b` | Operador binario para la división. Requiere que `b` sea diferente de `0`. |
+| **%** | `a % b` | Operador binario para obtener el módulo o resto de una división. Requiere que `b` sea diferente de `0`. |
+| **+** | `+a` | Operador unitario que representa un signo positivo. |
+| **-** | `-a` | Operador unitario que representa un signo negativo. |
+
+### Bitwise
+
+Este tipo de operadores nos permiten alterar el _valor en binario_ de un número.
+
+| Símbolo       | Operador      | Sintaxis       |  Descripción    | 
+| ------------- | ------------- | -------------- | --------------- |
+| **&** | `AND` | `a & b` | Producto lógico entre los bits de cada valor. |
+| **\|** | `OR` | `a \| b` | Suma lógica entre los bits de cada valor. |
+| **^** | `XOR` | `a ^ b` | Operación XOR entre los bits de cada valor. |
+| **~** | `Complemento` | `~a` | Intercambia cada bit de un número por su complemento. |
+| **<<** | `Leftshift` | `a << b` | Desplaza los bits del número `a` una `b` cantidad de veces hacía la _izquierda_. |
+| **>>** | `Rightsift` | `a >> b` | Desplaza los bits del número `a` una `b` cantidad de veces hacía la _derecha_. |
+
+## Asignación
+
+Los operadores de asignación nos permiten establecer o modificar el valor de una variable. El más básico es la `asignación` simple:
+
+```c
+    int mi_variable = 0;
+```
+
+Otra opción es:
+
+```c
+    int mi_variable;
+
+    // Otro código...
+
+    mi_variable = 0;
+```
+
+Es importante que asignemos valores a las variables, ya que C se encarga de establecer por defecto basura de memoria cuando las declaramos sin asignar.
+
+### Otras asignaciones
+
+Podemos combinar las asignaciones con las operaciones aritméticas que ya conocemos. Siendo `N` cualquier valor numérico, podemos utilizar:
+
+| Uso            | Equivalencia  | 
+| -------------- | ------------- |
+| `a += N` | `a = a + N` |
+| `a -= N` | `a = a - N` |
+| `a *= N` | `a = a * N` |
+| `a /= N` | `a = a / N` |
+| `a %= N` | `a = a % N` |
+| `a &= N` | `a = a & N` |
+| `a \|= N` | `a = a \| N` |
+| `a ^= N` | `a = a ^ N` |
+| `a <<= N` | `a = a << N` |
+| `a >>= N` | `a = a >> N` |
+
 ## Incremento y decremento
 
-En C existe el concepto de `operador de incremento`, que es una forma corta de escribir lo siguiente
+Existe el concepto de `operador de incremento`, que es una forma corta de escribir lo siguiente
 
 ```c
     i++;
@@ -67,3 +131,15 @@ Un ejemplo donde el comportamiento de `for` se vería afectado es el siguiente:
 ```
 
 Sin embargo, resulta poco recomendable hacer bucles de esta manera.
+
+## Lógicos
+
+Los operadores lógicos nos permiten escribir _expresiones booleanas_ que evalúan a _verdadero_ o _falso_:
+
+| Símbolo        | Operador      | Ejemplo       | Descripción   |
+| -------------- | ------------- | ------------- | ------------- |
+| **&&** | `AND` | `a && b` | Producto lógico. |
+| **\|\|** | `OR` | `a \|\| b` | Suma lógica. |
+| **!** | `NOT` | `!` | Negación de una expresión. |
+| **==** |  | `a == b` | Expresa _"`a` igual que `b`"_. |
+| **!=** |  | `a != b` | Expresa _"`a` distinto que `b`"_. |
