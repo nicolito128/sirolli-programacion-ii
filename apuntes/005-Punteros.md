@@ -2,7 +2,7 @@
 
 Cuando hablamos sobre [variables y tipos de datos](./001-Variables-y-Tipos.md) hicimos referencia a que toda variable posee un identificador único llamado *dirección de memoria*, con el uso de **punteros** podemos acceder a una dirección de memoria y modificar el valor subyacente de una variable.
 
-Los punteros en C resultan un concepto **fundamental** que todo programador debe interiorizar. Dada la naturaleza de bajo nivel del lenguaje, los punteros ocupan un lugar privilegiado: tienen su propía sintaxis y aritmética especial llamada _"aritmética de punteros"_ (que no está presente en muchos lenguajes de bajo nivel).
+Los punteros en C resultan un concepto **fundamental** que todo programador debe interiorizar. Dada la naturaleza de bajo nivel del lenguaje, los punteros ocupan un lugar privilegiado: tienen su propía sintaxis y aritmética especial llamada _"aritmética de punteros"_ (que no está presente en muchos lenguajes).
 
 ## ¿Qué es un puntero?
 
