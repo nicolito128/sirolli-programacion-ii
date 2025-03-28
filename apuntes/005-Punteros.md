@@ -72,7 +72,7 @@ Y, como toda variable tiene su propia dirección de memoria, podemos acceder a u
     int mi_variable;
     int *mi_ptr = &mi_variable;
     printf("&mi_variable = %p\n", &mi_variable);
-    printf("&mi_ptr = %p", mi_ptr);
+    printf("mi_ptr = %p", mi_ptr);
 ```
 
 Si ya ha utilizado la función `scanf`, notará que todo este tiempo estuvo haciendo uso de los punteros.
