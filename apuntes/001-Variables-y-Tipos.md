@@ -1,8 +1,8 @@
 # Variables
 
-De manera informal podemos entender a las variables como cajitas en las que podemos guardar valores. Estas cajas poseen un nombre, un valor, un identificador único (llamado puntero), y un tipo de dato que las describen. Por ejemplo, una variable que almacena una edad puede tener el nombre de `edad`, un puntero con valor `0x000001`, y como tipo de dato un entero sin signo, debido a que la edad de una persona no puede ser negativa. 
+De manera informal podemos entender a las variables como cajitas en las que podemos guardar valores. Estas cajas poseen un nombre, un valor, un identificador único (llamada dirección de memoria), y un tipo de dato que las describen. Por ejemplo, una variable que almacena una edad puede tener el nombre de `edad`, un puntero con valor `0x000001`, y como tipo de dato un entero sin signo, debido a que la edad de una persona no puede ser negativa. 
 
-Sabiendo esto, definimos a una **variable** como **un espacio en memoria que cuenta con cuatro elementos**: un _nombre_, un _valor_, un _puntero_, y un _tipo de dato_. En C, un tipo de dato determina qué valores puede almacenar la variable y cuanto espacio ocupará.
+Sabiendo esto, definimos a una **variable** como **un espacio en memoria que cuenta con cuatro elementos**: un _nombre_, un _valor_, un _una dirección de memoria_, y un _tipo de dato_. En C, un tipo de dato determina qué valores puede almacenar la variable y cuanto espacio ocupará.
 
 ## Tipos de datos
 
