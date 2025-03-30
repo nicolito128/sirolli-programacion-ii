@@ -1,4 +1,4 @@
-# Prácticas
+# Stuff
 
 Ejemplos de código en C con el único fin de prácticar el lenguaje o temas más complejos.
 
