@@ -46,7 +46,7 @@ Si está atento habrá notado el sutil esterisco (**\***) que se coloca entre el
     unsigned int *ui_ptr;
 ```
 
-Los anteriores casos pueden leerse de la siguiente manera: "_declara una variable TIPO puntero con nombre NOMBRE DE LA VARIABLE_".
+Los anteriores casos pueden leerse de la siguiente manera: "_declara una variable de tipo puntero a TIPO con nombre NOMBRE DE LA VARIABLE_".
 
 Tradicionalmente se recomienda colocar el asterisco pegado al nombre de la variable, pero tenga en cuenta que también son válidas las siguientes formas:
 
