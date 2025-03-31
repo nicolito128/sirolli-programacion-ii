@@ -46,7 +46,7 @@ Si está atento habrá notado el sutil esterisco (**\***) que se coloca entre el
     unsigned int *ui_ptr;
 ```
 
-Los anteriores casos pueden leerse de la siguiente manera: "_declara una variable de tipo X como un puntero a NOMBRE DE LA VARIABLE_".
+Los anteriores casos pueden leerse de la siguiente manera: "_declara una variable TIPO puntero con nombre NOMBRE DE LA VARIABLE_".
 
 Tradicionalmente se recomienda colocar el asterisco pegado al nombre de la variable, pero tenga en cuenta que también son válidas las siguientes formas:
 
@@ -77,7 +77,7 @@ Y, como toda variable tiene su propia dirección de memoria, podemos acceder a u
 
 Si ya ha utilizado la función `scanf`, notará que todo este tiempo estuvo haciendo uso de los punteros.
 
-## Accediendo y modificando el valor de puntero
+## Accediendo y modificando el valor de un puntero
 
 Los punteros son sólo una dirección de memoria, pero podemos hacer uso de la operación de `desreferencia` para acceder al valor de la variable a la que apunta. Es necesario colocar un asterisco (\*) antes del nombre de aquel puntero al que queremos acceder a su valor. Veamos un ejemplo:
 
