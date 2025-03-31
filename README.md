@@ -7,7 +7,7 @@ El presente intenta ser un registro en el tiempo y, a su vez, una guía práctic
 Programas y ejercicios desarrollados durante las clases en [source/clases](./source/clases/README.md).
 
 ## Trabajos Prácticos
-Ejercicios resueltos de los distintos TP en [source/trabajos_practicos](./source/trabajos_practicas/README.md).
+Ejercicios resueltos de los distintos TP en [source/trabajos_practicos](./source/trabajos_practicos/README.md).
 
 ## Apuntes
 Notas y explicaciones sobre varios temas puntuales en [apuntes/](./apuntes/README.md).
