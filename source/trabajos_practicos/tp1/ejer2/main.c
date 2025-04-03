@@ -1,12 +1,3 @@
-/*
-a) Agregar un nuevo elemento al conjunto A.
-b) Agregar un nuevo elemento al conjunto B.
-c) Mostrar el conjunto A.
-d) Mostrar el conjunto B
-e) Mostrar la unión de los conjuntos A y B.
-f) Dado un carácter determinar si pertenece a el Conjunto A o Conjunto B o está en ambos
-conjuntos.
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
