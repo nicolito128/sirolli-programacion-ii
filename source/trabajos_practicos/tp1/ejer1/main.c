@@ -25,8 +25,10 @@ void menu() {
         printf("[ - ] Restar dos complejos.\n");
         printf("[ * ] Multiplicar dos complejos.\n");
         printf("[ / ] Dividir dos complejos.\n");
+        
         printf("\nEscriba la operación que quiera realizar > ");
-        scanf("%c[^\n]", &opcion);
+        scanf("%c", &opcion);
+        getchar();
 
         switch (opcion) {
         case '+':
