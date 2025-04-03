@@ -27,8 +27,7 @@ void menu() {
         printf("[ / ] Dividir dos complejos.\n");
         
         printf("\nEscriba la operación que quiera realizar > ");
-        scanf("%c", &opcion);
-        getchar();
+        scanf(" %c", &opcion);
 
         switch (opcion) {
         case '+':
@@ -44,7 +43,7 @@ void menu() {
             break;
         }
     } while(opcion != '0');
-    printf("Finalizando el programa.\nCiao!\n");
+    printf("\nFinalizando el programa. Ciao!\n");
 }
 
 void ingresar_complejo(complejo num) {

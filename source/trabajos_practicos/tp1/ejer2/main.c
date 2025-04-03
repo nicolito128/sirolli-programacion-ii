@@ -78,13 +78,13 @@ void menu() {
             break;
         }
     } while(opcion != 0);
+    printf("\nFinalizando el programa. Ciao!\n");
 }
 
 char ingresar_caracter() {
     char ch;
     printf("\nIngrese un único caracter > ");
     scanf(" %c", &ch);
-    getchar();
     return ch;
 }
 
