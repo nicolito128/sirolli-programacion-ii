@@ -27,7 +27,7 @@ Conjunto inicializar(int n) {
 
         intentos++;
         if (intentos > 1000) {
-            printf("\nNo fue posible generar ltodos los caracteres aleatorios. Tamaño final: %d", res.cant);
+            printf("\nNo fue posible generar todos los caracteres aleatorios. Tamaño final: %d", res.cant);
             return res;
         }
     }
