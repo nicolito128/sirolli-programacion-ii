@@ -35,8 +35,8 @@ void mostrar_codes(Conjunto c) {
 
 void menu() {
     int opcion;
-    Conjunto a = {};
-    Conjunto b = {};
+    Conjunto a;
+    Conjunto b;
 
     printf("\n-- Generando el Conjunto A --");
     a = generar_conjunto();
@@ -84,6 +84,9 @@ void menu() {
 char ingresar_caracter() {
     char ch;
     printf("\nIngrese un único caracter > ");
+    // El espacio en blanco en " %c" es intencional.
+    // Resulta que es una forma especial de no leer el caracter de salto de línea (\n) cuando damos enter.
+    // Sin esto el código se romperá.
     scanf(" %c", &ch);
     return ch;
 }

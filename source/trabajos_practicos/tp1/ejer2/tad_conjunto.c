@@ -3,12 +3,18 @@
 #include <stdlib.h>
 
 Conjunto inicializar(int n) {
-    Conjunto res = {};
+    Conjunto res;
     char ch;
-    int i;
+    int i, intentos;
 
     res.cant = 0;
+    if (n < 0 || n > CAP_CONJUNTO) {
+        printf("\nNo fue posible generar el conjunto. El tamaño es negativo o superior a la capacidad máxima de un conjunto.");
+        return res;
+    }
+
     i = 0;
+    intentos = 0;
     while (i < n) {
         // Generamos un caracter ASCII aleatorio. Es decir, un número entre 0 y 127.
         ch = rand() % 128;
@@ -17,6 +23,12 @@ Conjunto inicializar(int n) {
         if (pertenece(res, ch) == 0) {
             res = agregar(res, ch);
             i++;
+        }
+
+        intentos++;
+        if (intentos > 1000) {
+            printf("\nNo fue posible generar ltodos los caracteres aleatorios. Tamaño final: %d", res.cant);
+            return res;
         }
     }
 
@@ -75,7 +87,7 @@ int pertenece(Conjunto c, char ch) {
     int i = 0;
     while (i < c.cant) {
         if (c.elems[i] > ch) {
-            return 0;
+            break;
         }
         if (c.elems[i] == ch) {
             return 1; // sí pertenece.

@@ -1,6 +1,6 @@
 #ifndef TAD_CONJUNTO_H
 #define TAD_CONJUNTO_H
-#define CAP_CONJUNTO 50
+#define CAP_CONJUNTO 70
 
 typedef struct {
     char elems[CAP_CONJUNTO];
