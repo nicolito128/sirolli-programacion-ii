@@ -17,11 +17,11 @@ void restar(complejo elem1, complejo elem2, complejo resultado) {
     resultado[1] = b - d;
 }
 
-// (a + b.i) * (c + d.i) = (ac - bd) + (ad + bc).i
+// (a + b.i) * (c + d.i) = (ac + bd) + (ad + bc).i
 void multiplicar(complejo elem1, complejo elem2, complejo resultado) {
     float a = elem1[0], b = elem1[1];
     float c = elem2[0], d = elem2[1];
-    resultado[0] = a*c - b*d;
+    resultado[0] = a*c + b*d;
     resultado[1] = a*d + b*c;
 }
 
